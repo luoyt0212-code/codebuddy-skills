@@ -20,6 +20,28 @@
 
 ---
 
+### 📓 [weekly-notes-import](./skills/weekly-notes-import/SKILL.md)
+
+**每周笔记智能导入技能**
+
+将 Get笔记 App 的周记自动导入 Obsidian，完成主题聚类、价值分级、洞察卡片生成全流程。
+
+**核心特性：**
+- AI 动态主题聚类（语义分析，不限于预定义赛道）
+- S/A/B/C 四级价值分类（四维评分体系）
+- 自动生成 Zettelkasten 洞察卡片并与已有卡片合并
+- 创建本周索引 + 主题索引 + 双向链接
+
+**脚本文件：** `scripts/smart_import_to_obsidian.py`
+
+---
+
 ## 使用方法
 
-将 `skills/bp-analyzer/SKILL.md` 复制到 `~/.workbuddy/skills/bp-analyzer/SKILL.md` 即可在 WorkBuddy 中使用。
+将对应技能目录复制到 `~/.workbuddy/skills/` 下即可在 WorkBuddy 中使用。
+
+例如：
+```bash
+cp -r skills/bp-analyzer ~/.workbuddy/skills/
+cp -r skills/weekly-notes-import ~/.workbuddy/skills/
+```
